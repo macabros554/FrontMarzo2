@@ -17,7 +17,6 @@ import { LoadingComponent } from './loading/loading.component';
     OrdenadoresRoutingModule,
     HttpClientModule,
     DetallesOrdenadorModule
-
   ],exports:[
     OrdenadoresComponent,
     LoadingComponent

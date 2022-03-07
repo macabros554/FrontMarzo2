@@ -91,7 +91,7 @@ export class DatosUsuarioComponent implements OnInit {
     .subscribe({
       next: (resp => {
         //console.log(resp);
-        window.location.reload();
+        this.sacarUsuario();
     }),
       error: resp => {
         //console.log(resp);
